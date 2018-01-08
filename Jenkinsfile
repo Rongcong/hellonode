@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("xrongcong/hellonode")
+        app = docker.build("hub.infervision.com/xrongcong/hellonode")
     }
 
     stage('Test image') {
